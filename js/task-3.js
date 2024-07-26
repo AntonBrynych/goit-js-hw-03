@@ -1,15 +1,13 @@
 function filterArray(numbers, value) {
       
   let newArray = [];
+  let i = 0;
 
-  for (i=0; i<=numbers.length; i++) {
-
+  for (i = 0; i <= numbers.length; i++) {
     if (numbers[i] > value) {
         newArray.push(numbers[i])
-
     }
   }
-
   return newArray
 }
 
